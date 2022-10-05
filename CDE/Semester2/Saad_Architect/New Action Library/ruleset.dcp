@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eCog.Proc UserName="s1085493" Company="Universit&#195;&#164;t Salzburg" Copyright="" version="20181002" use-reproducable-poly="1" project-unit="5" engine-version="10.1.1" engine-build="94" update-topology="0" distance_calculation="CG" resampling_compatibility="0" ver="0">
+	<ruleset-info>
+		<name></name>
+		<author>s1085493</author>
+		<tags></tags>
+		<version></version>
+		<description></description>
+		<input></input>
+		<output></output>
+	</ruleset-info>
+	<ParamValueSetCntnr>
+		<ParamValueSet Name="param_setActionChessboard">
+			<ParamValue name="var_slider" description="" type="variable">
+				<DValue value="30." type="double"></DValue>
+				<Variable>
+					<DValue value="1" type="procVarId"></DValue>
+				</Variable>
+			</ParamValue>
+			<ParamValue name="var_slider_1" description="" type="variable">
+				<DValue value="20." type="double"></DValue>
+				<Variable>
+					<DValue value="2" type="procVarId"></DValue>
+				</Variable>
+			</ParamValue>
+			<ParamValue name="var_scale2" description="" type="variable">
+				<DValue value="15." type="double"></DValue>
+				<Variable>
+					<DValue value="6" type="procVarId"></DValue>
+				</Variable>
+			</ParamValue>
+		</ParamValueSet>
+		<ParamValueSet Name="param_CS">
+			<ParamValue name="var_slider_1" description="" type="variable">
+				<DValue value="40." type="double"></DValue>
+				<Variable>
+					<DValue value="2" type="procVarId"></DValue>
+				</Variable>
+			</ParamValue>
+		</ParamValueSet>
+	</ParamValueSetCntnr>
+	<ObjectDependencies>
+		<ImgLayers>
+			<ChnlProxyCntnr>
+				<Layers>
+					<ChnlProxy strName="Layer 1" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 2" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 3" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 4" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 5" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+					<ChnlProxy strName="Layer 6" flags="4">
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					</ChnlProxy>
+				</Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ImgLayers>
+		<ThmLayers>
+			<ChnlProxyCntnr>
+				<Layers></Layers>
+				<Variables></Variables>
+			</ChnlProxyCntnr>
+		</ThmLayers>
+		<MapLvlProxyCntnr>
+			<MapLvlProxies>
+				<MapLvlProxy strName="New Level" bVrbl="0">
+					<Assignment MapLvl="1" MapName="main"></Assignment>
+					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				</MapLvlProxy>
+			</MapLvlProxies>
+			<MapLvlVrblValues></MapLvlVrblValues>
+		</MapLvlProxyCntnr>
+		<ProcVrblCntnr>
+			<ProcVrbl iId="1" eType="1">
+				<DValue value="30." type="double"></DValue>
+				<NameExpr strTextExpr="var_slider"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="6" eType="1">
+				<DValue value="50." type="double"></DValue>
+				<NameExpr strTextExpr="var_scale2"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="3" eType="1">
+				<DValue value="0." type="double"></DValue>
+				<NameExpr strTextExpr="parameter_CS"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="4" eType="1">
+				<DValue value="0." type="double"></DValue>
+				<NameExpr strTextExpr="param_CS"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="5" eType="1">
+				<DValue value="0." type="double"></DValue>
+				<NameExpr strTextExpr="parameter_UI"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="0" eType="1">
+				<DValue value="0." type="double"></DValue>
+				<NameExpr strTextExpr="action1"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+			<ProcVrbl iId="2" eType="2">
+				<DValue value="40." type="double"></DValue>
+				<NameExpr strTextExpr="var_slider_1"></NameExpr>
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+				<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+			</ProcVrbl>
+		</ProcVrblCntnr>
+		<ClssHrchy EvalInvalid="1" MinProb="0.10000000000000000555111512312578270212" NNSlope="0.20000000000000001110223024625156540424" RdiResamplOptns="3">
+			<AllClss>
+				<Clss id="1" name="temp" flag="0" iMaskID="-1" bUsePrntClr="0" dPrntClssBrghtns="0." termType="0" strUserName="s1085493" tChngTime="1654020307" bShow="0" Trans="0.">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+					<Color R="189" G="0" B="0"></Color>
+					<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+				</Clss>
+			</AllClss>
+			<PropTree version="20100426">
+				<AllProps>
+					<PropDscr Flag="2" strUserName="s1085493" tChngTime="1654017120" group_id="object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="CE46A802-BB60-41e1-BF2E-630ACE2D3543" InstID="var_slider_1"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_var_slider_1" type="string" name="NameExpr"></DValue>
+							<DValue value="40." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654015410" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="action1"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_action1" type="string" name="NameExpr"></DValue>
+							<DValue value="0." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654018732" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="parameter_UI"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_parameter_UI" type="string" name="NameExpr"></DValue>
+							<DValue value="0." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654017644" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="param_CS"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_param_CS" type="string" name="NameExpr"></DValue>
+							<DValue value="0." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654017535" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="parameter_CS"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_parameter_CS" type="string" name="NameExpr"></DValue>
+							<DValue value="0." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654022523" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="var_scale2"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_var_scale2" type="string" name="NameExpr"></DValue>
+							<DValue value="50." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+					<PropDscr Flag="2147483650" strUserName="s1085493" tChngTime="1654016084" group_id="global.object.vrbl.vrbl_arr.prop">
+						<PropDscrId GUID="5EB15E4B-593A-432f-A0ED-9B38627475D2" InstID="var_slider"></PropDscrId>
+						<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<Params>
+							<DValue value="_var_slider" type="string" name="NameExpr"></DValue>
+							<DValue value="30." type="double" name="vVal"></DValue>
+							<DValue value="0" type="bool" name="bShared"></DValue>
+							<DValue value="" type="string" name="strInstGUID"></DValue>
+						</Params>
+					</PropDscr>
+				</AllProps>
+				<UserGroups></UserGroups>
+			</PropTree>
+			<Brightness>
+				<Map MapName="main">
+					<ChnlWghtBrght>
+						<BrghtWght val="1." chnl="0"></BrghtWght>
+						<BrghtWght val="1." chnl="1"></BrghtWght>
+						<BrghtWght val="1." chnl="2"></BrghtWght>
+						<BrghtWght val="1." chnl="3"></BrghtWght>
+						<BrghtWght val="1." chnl="4"></BrghtWght>
+						<BrghtWght val="1." chnl="5"></BrghtWght>
+					</ChnlWghtBrght>
+				</Map>
+			</Brightness>
+			<AllVrblClss></AllVrblClss>
+			<AllSubClss>
+				<Clss Id="1" PrfdGrp="1">
+					<SubClss></SubClss>
+					<SubGrp></SubGrp>
+				</Clss>
+			</AllSubClss>
+			<AllTerm>
+				<Term TermEvalType="0">
+					<TermBase ClssId="1" flags="0">
+						<Weight>
+							<DValue value="1" type="int"></DValue>
+						</Weight>
+					</TermBase>
+				</Term>
+			</AllTerm>
+		</ClssHrchy>
+		<MapVrblCntnr></MapVrblCntnr>
+		<FtrListVrblCntnr></FtrListVrblCntnr>
+		<CoordVrblCntnr></CoordVrblCntnr>
+		<ROIVrblCntnr></ROIVrblCntnr>
+		<ImgObjListVrblCntnr>
+			<ImgObjListVrbl strName="UI Selection">
+				<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+			</ImgObjListVrbl>
+		</ImgObjListVrblCntnr>
+		<ArrayCntnr>
+			<Arrays></Arrays>
+			<ArrayVrbls></ArrayVrbls>
+		</ArrayCntnr>
+		<Smpls>
+			<AllClss>
+				<SmplList ClssId="1"></SmplList>
+			</AllClss>
+			<AllProp></AllProp>
+		</Smpls>
+		<plugin-list>
+			<plugin name="eCognition Internal Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Interactive Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Internal Export Process Algorithms" version="0.1"></plugin>
+			<plugin name="eCognition Basic Process Algorithms" version="0.1"></plugin>
+		</plugin-list>
+	</ObjectDependencies>
+	<CustProcAlgrList></CustProcAlgrList>
+	<ExternalCustProcAlgrList></ExternalCustProcAlgrList>
+	<ProcessList>
+		<ProcBase Name="FirstStep" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+			<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+			<vrblValMaxCycle>
+				<DValue value="1." type="double"></DValue>
+			</vrblValMaxCycle>
+			<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+				<Params></Params>
+			</Algorithm>
+			<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+				<Params>
+					<DValue type="threshold" name="valThrsh"></DValue>
+					<DValue type="threshold" name="valThrsh2"></DValue>
+					<DValue value="From Parent" type="string" name="valMap"></DValue>
+				</Params>
+			</Domain>
+			<SubProc>
+				<ProcBase Name="Update parameter set &quot;param_CS&quot; from action &quot;action_chessboard&quot;" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="081EC875-C3D3-44cb-B091-869DF622478F">
+						<Params>
+							<DValue value="action_chessboard" type="string" name="vrblActnID"></DValue>
+							<DValue value="param_CS" type="string" name="vrblParamSetName"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="Apply parameter set: &quot;param_CS&quot;" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="B720ED18-4ADE-4bd6-A7A5-679F72B82B99">
+						<Params>
+							<DValue value="param_CS" type="string" name="vrblParamSetName"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="chess board: var_slider_1 creating 'New Level'" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="0F96C846-956C-405f-AC42-81EBA4D1A755">
+						<Params>
+							<DValue value="2" type="procVarId" name="vrblObjSize"></DValue>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue value="1" type="bool" name="bDoOverwrite"></DValue>
+							<DValue type="vector" name="vThmLayers">
+								<Values></Values>
+							</DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="682A3AA1-9F4F-4dae-9E44-5015DF867712">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="export results" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="B999B3F6-75E4-492c-94E2-4CE65455989F">
+						<Params>
+							<DValue value="0" type="int" name="eExportMode"></DValue>
+							<DValue value="ImageObj001" type="string" name="strExportItem"></DValue>
+							<DValue value="-1" type="procVarId" name="vrblExportItem"></DValue>
+							<DValue value="C:\Users\s1085493\Downloads.jpg" type="string" name="strExportPath"></DValue>
+							<DValue value="0" type="bool" name="bExportSeries"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;ExportInfo SingleFilePerWksp=&quot;0&quot; SingleFilePerItem=&quot;0&quot; ExportItem=&quot;ImageObj001&quot; ExportType=&quot;Raster&quot; DriverID=&quot;JPG&quot; ExportPath=&quot;C:\Users\s1085493\Downloads.jpg&quot;>&lt;/ExportInfo>" type="string" name="strExportItemInfo"></DValue>
+							<DValue value="JPG" type="string" name="sDrvrID"></DValue>
+							<DValue value="ImageObj" type="string" name="vrblImgFileName"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrSttng Pixels=&quot;1&quot; DisplImage=&quot;0&quot; LayrMode=&quot;Image Data&quot; ElevMode=&quot;-auto-&quot; dElevation=&quot;0.&quot; bDrawSER=&quot;0&quot; bDrawElpt=&quot;0&quot; bDrawEV=&quot;0&quot; bDrawSklt=&quot;0&quot; bDrawText=&quot;1&quot; bDrawHeatMap=&quot;0&quot; sPolyViewLyr=&quot;&quot; clrMark=&quot;3289855&quot; clrSmpl=&quot;0&quot; clrSelectedVector=&quot;3289855&quot; clrSelectedPoint=&quot;3289855&quot; clrSklt=&quot;0&quot; bSmpl=&quot;0&quot; SavedOrient=&quot;0&quot;>&lt;RndrVctrMix HideAllVectorLayers=&quot;0&quot;>&lt;/RndrVctrMix>&lt;RndrObjLvlMix HideAllObjLvlLayers=&quot;0&quot; HideAllClasses=&quot;0&quot; ShowOutlines=&quot;1&quot; ShowFill=&quot;1&quot; OutlineMode=&quot;Outlines&quot; RenderMode=&quot;0&quot; VctrMode=&quot;Outlines&quot;>&lt;layer level-name=&quot;New Level&quot; show=&quot;1&quot; outline-color=&quot;16711680&quot; fill-color=&quot;-1&quot; alpha=&quot;0.29999999999999998889776975374843459576&quot; thickness=&quot;1&quot;>&lt;/layer>&lt;Classes>&lt;class name=&quot;unclassified&quot; show=&quot;1&quot;>&lt;/class>&lt;/Classes>&lt;/RndrObjLvlMix>&lt;RndrPointCloudMix HideAllPoints=&quot;0&quot; cBackgroundColor=&quot;0&quot;>&lt;Layers>&lt;/Layers>&lt;Classes>&lt;/Classes>&lt;/RndrPointCloudMix>&lt;TopLeft eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopLeft>&lt;TopCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopCenter>&lt;LeftCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/LeftCenter>&lt;TopRight eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopRight>&lt;BottomLeft eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/BottomLeft>&lt;BottomCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/BottomCenter>&lt;RightCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/RightCenter>&lt;BottomRight eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;{#Map.Name}&quot; iFontSize=&quot;10&quot;>&lt;/BottomRight>&lt;/RndrSttng>" type="string" name="RndrSttng"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrCMix ScalMode=&quot;linear&quot; ScalSDev=&quot;2.&quot; ScalLSat=&quot;1.0000000000000000208166817117216851329e-002&quot; ScalGamma=&quot;0.5&quot; MixType=&quot;5&quot; bUseIgnoreRange=&quot;0&quot; dIgnoreRangeMin=&quot;0.&quot; dIgnoreRangeMax=&quot;0.&quot; num_chnl=&quot;6&quot;>&lt;wght0>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght0>&lt;wght1>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght1>&lt;wght2>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght2>&lt;ScalEqua>&lt;EquaItem EquaChnl=&quot;0&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;1&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;2&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;3&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;4&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;5&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;/ScalEqua>&lt;HiddenFlags>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;/HiddenFlags>&lt;/RndrCMix>" type="string" name="RndrCMix"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrBlock Orient3D=&quot;0&quot; iSliceX=&quot;0&quot; iSliceY=&quot;0&quot;>&lt;/RndrBlock>" type="string" name="AddtnlSttngs"></DValue>
+							<DValue value="1" type="bool" name="bUseLocalViewSttng"></DValue>
+							<DValue value="" type="string" name="strSttngsProc"></DValue>
+							<DValue value="Click to capture current view settings" type="string" name="UpdtSttngs"></DValue>
+							<DValue value="0" type="int" name="iBrdrSize"></DValue>
+							<DValue value="1" type="bool" name="bUseFixedSize"></DValue>
+							<DValue value="60." type="double" name="vrblSizeX"></DValue>
+							<DValue value="60" type="int" name="vrblSizeY"></DValue>
+							<DValue value="1" type="bool" name="bDrawObjOutline"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CED621BD-F4D1-4ffa-A2F6-DB2BB1913E8C">
+						<Params>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue type="vector" name="mClssFltr">
+								<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+							<DValue value="From Parent" type="string" name="valROI"></DValue>
+							<DValue value="0" type="int" name="iNumMaxObj"></DValue>
+							<DValue value="4" type="int" name="iVersion"></DValue>
+							<DValue value="-1" type="int" name="iOldLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplNumLvl"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+			</SubProc>
+		</ProcBase>
+		<ProcBase Name="SecondStep" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+			<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+			<vrblValMaxCycle>
+				<DValue value="1." type="double"></DValue>
+			</vrblValMaxCycle>
+			<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+				<Params></Params>
+			</Algorithm>
+			<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+				<Params>
+					<DValue type="threshold" name="valThrsh"></DValue>
+					<DValue type="threshold" name="valThrsh2"></DValue>
+					<DValue value="From Parent" type="string" name="valMap"></DValue>
+				</Params>
+			</Domain>
+			<SubProc>
+				<ProcBase Name="check" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="3C74F8CF-367B-4d2c-ABE6-B0DD6B9EFD02">
+						<Params>
+							<DValue value="Just kidding" type="string" name="vrblMsg"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="select input mode: rectangle object selection" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="10E38CCA-AD5A-4dcd-9A24-78F99371D90A">
+						<Params>
+							<DValue value="3" type="int" name="Mode"></DValue>
+							<DValue value="" type="string" name="strProcPath"></DValue>
+							<DValue value="1" type="bool" name="bSlctImgObj"></DValue>
+							<DValue value="0" type="bool" name="bSlctVctrObj"></DValue>
+							<DValue value="0" type="bool" name="bSlctPoint"></DValue>
+							<DValue value="-1" type="procVarId" name="vrblAnnot"></DValue>
+							<DValue type="vector" name="mClssFltr">
+								<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+								</Values>
+							</DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="selection" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="A8BA5775-CC39-4194-9A6A-A64872EE1F81">
+						<Params></Params>
+					</Algorithm>
+					<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+						<Params>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+						</Params>
+					</Domain>
+					<SubProc>
+						<ProcBase Name="Apply parameter set: &quot;param_CS&quot;" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+							<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+							<vrblValMaxCycle>
+								<DValue value="1." type="double"></DValue>
+							</vrblValMaxCycle>
+							<Algorithm guid="B720ED18-4ADE-4bd6-A7A5-679F72B82B99">
+								<Params>
+									<DValue value="param_CS" type="string" name="vrblParamSetName"></DValue>
+								</Params>
+							</Algorithm>
+							<Domain guid="CC9F2C30-4DB0-4ef2-B864-63560D1D6BF3">
+								<Params>
+									<DValue type="threshold" name="valThrsh"></DValue>
+									<DValue type="threshold" name="valThrsh2"></DValue>
+									<DValue value="From Parent" type="string" name="valMap"></DValue>
+								</Params>
+							</Domain>
+							<SubProc></SubProc>
+						</ProcBase>
+						<ProcBase Name="UI Selection: temp" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+							<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+							<vrblValMaxCycle>
+								<DValue value="1." type="double"></DValue>
+							</vrblValMaxCycle>
+							<Algorithm guid="3AC44F21-C6B2-4804-9929-BB18BE6F2051">
+								<Params>
+									<DValue value="1" type="clssId" name="valClass"></DValue>
+								</Params>
+							</Algorithm>
+							<Domain guid="{868064DF-BF2D-482b-A642-A0D2659D9931}">
+								<Params>
+									<DValue type="rlstObjId" obj_type="objlist_vrbl" obj_name="UI Selection" scope="" name="pObjList"></DValue>
+									<DValue type="vector" name="mClssFltr">
+									<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="threshold" name="valThrsh"></DValue>
+									<DValue type="threshold" name="valThrsh2"></DValue>
+									<DValue value="0" type="int" name="iNumMaxObj"></DValue>
+								</Params>
+							</Domain>
+							<SubProc></SubProc>
+						</ProcBase>
+					</SubProc>
+				</ProcBase>
+				<ProcBase Name="temp at  New Level: multi-resolution: var_scale2 [shape:0.1 compct.:0.5]" bLoopChg="0" bExpand="1" bActive="1" bAutoName="1" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="6534F2E1-485B-406f-B990-350824399FA8">
+						<Params>
+							<DValue value="0" type="bool" name="bDoOverwrite"></DValue>
+							<DValue type="lvlName" name="valMapLvl"></DValue>
+							<DValue value="0" type="int" name="eLvlUsage"></DValue>
+							<DValue value="-1" type="int" name="iCompMode"></DValue>
+							<DValue type="vector" name="vImgLayerWghtVarOrValue">
+								<Values>
+									<DValue type="vector" indx="0">
+									<Values>
+									<DValue type="img_chnl" value="Layer 1" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="1">
+									<Values>
+									<DValue type="img_chnl" value="Layer 2" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="2">
+									<Values>
+									<DValue type="img_chnl" value="Layer 3" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="3">
+									<Values>
+									<DValue type="img_chnl" value="Layer 4" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="4">
+									<Values>
+									<DValue type="img_chnl" value="Layer 5" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="5">
+									<Values>
+									<DValue type="img_chnl" value="Layer 6" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+								</Values>
+							</DValue>
+							<DValue type="vector" name="vImgLayerWght">
+								<Values>
+									<DValue type="vector" indx="0">
+									<Values>
+									<DValue type="img_chnl" value="Layer 1" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="1">
+									<Values>
+									<DValue type="img_chnl" value="Layer 2" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="2">
+									<Values>
+									<DValue type="img_chnl" value="Layer 3" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="3">
+									<Values>
+									<DValue type="img_chnl" value="Layer 4" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="4">
+									<Values>
+									<DValue type="img_chnl" value="Layer 5" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+									<DValue type="vector" indx="5">
+									<Values>
+									<DValue type="img_chnl" value="Layer 6" scope="" indx="0"></DValue>
+									<DValue value="1." type="double" indx="1"></DValue>
+									</Values>
+									</DValue>
+								</Values>
+							</DValue>
+							<DValue type="vector" name="vThmLayers">
+								<Values></Values>
+							</DValue>
+							<DValue value="6" type="procVarId" name="vrblValScale"></DValue>
+							<DValue value="0.10000000000000000555111512312578270212" type="double" name="vrblHCShape"></DValue>
+							<DValue value="0.5" type="double" name="vrblHCArea"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CED621BD-F4D1-4ffa-A2F6-DB2BB1913E8C">
+						<Params>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue type="vector" name="mClssFltr">
+								<Values>
+									<DValue value="1" type="clssId" indx="0"></DValue>
+									<DValue value="User defined" type="string" indx="1"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+							<DValue value="From Parent" type="string" name="valROI"></DValue>
+							<DValue value="0" type="int" name="iNumMaxObj"></DValue>
+							<DValue value="4" type="int" name="iVersion"></DValue>
+							<DValue value="-1" type="int" name="iOldLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplNumLvl"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+				<ProcBase Name="export results" bLoopChg="0" bExpand="1" bActive="1" bAutoName="0" bSubrtn="0">
+					<LcnsInfo sLcnsId="" sPwd=""></LcnsInfo>
+					<vrblValMaxCycle>
+						<DValue value="1." type="double"></DValue>
+					</vrblValMaxCycle>
+					<Algorithm guid="B999B3F6-75E4-492c-94E2-4CE65455989F">
+						<Params>
+							<DValue value="0" type="int" name="eExportMode"></DValue>
+							<DValue value="ImageObj" type="string" name="strExportItem"></DValue>
+							<DValue value="-1" type="procVarId" name="vrblExportItem"></DValue>
+							<DValue value="C:\Users\s1085493\Downloads.jpg" type="string" name="strExportPath"></DValue>
+							<DValue value="0" type="bool" name="bExportSeries"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;ExportInfo SingleFilePerWksp=&quot;0&quot; SingleFilePerItem=&quot;0&quot; ExportItem=&quot;ImageObj&quot; ExportType=&quot;Raster&quot; DriverID=&quot;JPG&quot; ExportPath=&quot;C:\Users\s1085493\Downloads.jpg&quot;>&lt;/ExportInfo>" type="string" name="strExportItemInfo"></DValue>
+							<DValue value="JPG" type="string" name="sDrvrID"></DValue>
+							<DValue value="ImageObj" type="string" name="vrblImgFileName"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrSttng Pixels=&quot;1&quot; DisplImage=&quot;0&quot; LayrMode=&quot;Image Data&quot; ElevMode=&quot;-auto-&quot; dElevation=&quot;0.&quot; bDrawSER=&quot;0&quot; bDrawElpt=&quot;0&quot; bDrawEV=&quot;0&quot; bDrawSklt=&quot;0&quot; bDrawText=&quot;1&quot; bDrawHeatMap=&quot;0&quot; sPolyViewLyr=&quot;&quot; clrMark=&quot;3289855&quot; clrSmpl=&quot;0&quot; clrSelectedVector=&quot;3289855&quot; clrSelectedPoint=&quot;3289855&quot; clrSklt=&quot;0&quot; bSmpl=&quot;0&quot; SavedOrient=&quot;0&quot;>&lt;RndrVctrMix HideAllVectorLayers=&quot;0&quot;>&lt;/RndrVctrMix>&lt;RndrObjLvlMix HideAllObjLvlLayers=&quot;0&quot; HideAllClasses=&quot;0&quot; ShowOutlines=&quot;1&quot; ShowFill=&quot;1&quot; OutlineMode=&quot;Outlines&quot; RenderMode=&quot;0&quot; VctrMode=&quot;Outlines&quot;>&lt;layer level-name=&quot;New Level&quot; show=&quot;1&quot; outline-color=&quot;16711680&quot; fill-color=&quot;-1&quot; alpha=&quot;0.29999999999999998889776975374843459576&quot; thickness=&quot;1&quot;>&lt;/layer>&lt;Classes>&lt;class name=&quot;unclassified&quot; show=&quot;1&quot;>&lt;/class>&lt;/Classes>&lt;/RndrObjLvlMix>&lt;RndrPointCloudMix HideAllPoints=&quot;0&quot; cBackgroundColor=&quot;0&quot;>&lt;Layers>&lt;/Layers>&lt;Classes>&lt;/Classes>&lt;/RndrPointCloudMix>&lt;TopLeft eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopLeft>&lt;TopCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopCenter>&lt;LeftCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/LeftCenter>&lt;TopRight eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/TopRight>&lt;BottomLeft eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/BottomLeft>&lt;BottomCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/BottomCenter>&lt;RightCenter eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;&quot; iFontSize=&quot;10&quot;>&lt;/RightCenter>&lt;BottomRight eFontType=&quot;0&quot; crText=&quot;16777215&quot; strText=&quot;{#Map.Name}&quot; iFontSize=&quot;10&quot;>&lt;/BottomRight>&lt;/RndrSttng>" type="string" name="RndrSttng"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrCMix ScalMode=&quot;linear&quot; ScalSDev=&quot;2.&quot; ScalLSat=&quot;1.0000000000000000208166817117216851329e-002&quot; ScalGamma=&quot;0.5&quot; MixType=&quot;5&quot; bUseIgnoreRange=&quot;0&quot; dIgnoreRangeMin=&quot;0.&quot; dIgnoreRangeMax=&quot;0.&quot; num_chnl=&quot;6&quot;>&lt;wght0>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght0>&lt;wght1>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght1>&lt;wght2>&lt;Layer Index=&quot;0&quot; Name=&quot;Layer 1&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;1&quot; Name=&quot;Layer 2&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;2&quot; Name=&quot;Layer 3&quot; Value=&quot;1&quot;>&lt;/Layer>&lt;Layer Index=&quot;3&quot; Name=&quot;Layer 4&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;4&quot; Name=&quot;Layer 5&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;Layer Index=&quot;5&quot; Name=&quot;Layer 6&quot; Value=&quot;0&quot;>&lt;/Layer>&lt;/wght2>&lt;ScalEqua>&lt;EquaItem EquaChnl=&quot;0&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;1&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;2&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;3&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;4&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;EquaItem EquaChnl=&quot;5&quot; EquaMode=&quot;1&quot; EquaMin=&quot;0.&quot; EquaMax=&quot;255.&quot; EquaInit=&quot;0&quot;>&lt;/EquaItem>&lt;/ScalEqua>&lt;HiddenFlags>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;Channel IsHidden=&quot;0&quot;>&lt;/Channel>&lt;/HiddenFlags>&lt;/RndrCMix>" type="string" name="RndrCMix"></DValue>
+							<DValue value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;RndrBlock Orient3D=&quot;0&quot; iSliceX=&quot;0&quot; iSliceY=&quot;0&quot;>&lt;/RndrBlock>" type="string" name="AddtnlSttngs"></DValue>
+							<DValue value="1" type="bool" name="bUseLocalViewSttng"></DValue>
+							<DValue value="" type="string" name="strSttngsProc"></DValue>
+							<DValue value="Click to capture current view settings" type="string" name="UpdtSttngs"></DValue>
+							<DValue value="0" type="int" name="iBrdrSize"></DValue>
+							<DValue value="1" type="bool" name="bUseFixedSize"></DValue>
+							<DValue value="60." type="double" name="vrblSizeX"></DValue>
+							<DValue value="60" type="int" name="vrblSizeY"></DValue>
+							<DValue value="1" type="bool" name="bDrawObjOutline"></DValue>
+						</Params>
+					</Algorithm>
+					<Domain guid="CED621BD-F4D1-4ffa-A2F6-DB2BB1913E8C">
+						<Params>
+							<DValue type="lvlName" name="valMapLvl">
+								<MapLvlProxy strName="New Level" bVrbl="0">
+									<Assignment MapLvl="1" MapName="main"></Assignment>
+									<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+								</MapLvlProxy>
+							</DValue>
+							<DValue type="vector" name="mClssFltr">
+								<Values>
+									<DValue value="Disabled" type="string" indx="0"></DValue>
+								</Values>
+							</DValue>
+							<DValue type="threshold" name="valThrsh"></DValue>
+							<DValue type="threshold" name="valThrsh2"></DValue>
+							<DValue value="From Parent" type="string" name="valMap"></DValue>
+							<DValue value="From Parent" type="string" name="valROI"></DValue>
+							<DValue value="0" type="int" name="iNumMaxObj"></DValue>
+							<DValue value="4" type="int" name="iVersion"></DValue>
+							<DValue value="-1" type="int" name="iOldLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplLvl"></DValue>
+							<DValue value="0" type="int" name="iOldDsplNumLvl"></DValue>
+						</Params>
+					</Domain>
+					<SubProc></SubProc>
+				</ProcBase>
+			</SubProc>
+		</ProcBase>
+	</ProcessList>
+	<ExportedItems>
+		<item name="ImageObj001" type="Raster" driver="JPG" ext="jpg" path="C:\Users\s1085493\Downloads.jpg"></item>
+		<item name="ImageObj" type="Raster" driver="JPG" ext="jpg" path="C:\Users\s1085493\Downloads.jpg"></item>
+	</ExportedItems>
+	<LcnsIds></LcnsIds>
+</eCog.Proc>

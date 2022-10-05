@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionFile>
+	<ActionDefinition name="action_chessboard" id="action_chessboard" icon="" state-icon-variable="action1" filter="A" guid="BCFC42F4-E100-11EC-BCED-2C44FD3306E5" use_only_once="1" priority="0" can-remove="1">
+		<RuleSet file="ruleset.dcp"></RuleSet>
+		<Description>This action is for doing Chessboard segmentation. You can select any size based on the slider and then just hit the run button to create the segmentation.</Description>
+		<Process name="FirstStep" parameter_set="param_CS"></Process>
+		<Properties>
+			<Group text="Group" color="4802118" text_color="13948887" color_3dshade="2828328">
+				<Slider text="text" left-margin="-1" description="" variable="var_slider_1" dscr="" ruleset="" left-text="Size" right-text="">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<vrblMin>
+						<DValue value="10." type="double"></DValue>
+					</vrblMin>
+					<vrblMax>
+						<DValue value="100." type="double"></DValue>
+					</vrblMax>
+					<vrblTickFreq>
+						<DValue value="10." type="double"></DValue>
+					</vrblTickFreq>
+					<vrblJump>
+						<DValue value="10." type="double"></DValue>
+					</vrblJump>
+				</Slider>
+				<Button text="" left-margin="-1" description="The first chessboard segmentation" img="" mode="push" button_text="Run" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="FirstStep" release=""></Process>
+					<Description>The first chessboard segmentation</Description>
+				</Button>
+				<Button text="Export" left-margin="-1" description="may be if I could add path for export the purpose of this Results button could be very well defined" img="" mode="push" button_text="Results" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="FirstStep//export results" release=""></Process>
+					<Description>may be if I could add path for export the purpose of this Results button could be very well defined</Description>
+				</Button>
+			</Group>
+			<Group text="Description" color="4802118" text_color="13948887" color_3dshade="2828328">
+				<Description text="text" left-margin="-1" description="Description">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+				</Description>
+			</Group>
+			<ObjectDependencies>
+				<ImgLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ImgLayers>
+				<ThmLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ThmLayers>
+				<MapLvlProxyCntnr>
+					<MapLvlProxies></MapLvlProxies>
+					<MapLvlVrblValues></MapLvlVrblValues>
+				</MapLvlProxyCntnr>
+				<ProcVrblCntnr>
+					<ProcVrbl iId="2" eType="2">
+						<DValue value="40." type="double"></DValue>
+						<NameExpr strTextExpr="var_slider_1"></NameExpr>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+					</ProcVrbl>
+				</ProcVrblCntnr>
+				<ClssHrchy EvalInvalid="1" MinProb="0.10000000000000000555111512312578270212" NNSlope="0.20000000000000001110223024625156540424" RdiResamplOptns="3">
+					<AllClss></AllClss>
+					<PropTree version="20100426">
+						<AllProps></AllProps>
+						<UserGroups></UserGroups>
+					</PropTree>
+					<Brightness>
+						<Map MapName="main">
+							<ChnlWghtBrght>
+								<BrghtWght val="1." chnl="0"></BrghtWght>
+								<BrghtWght val="1." chnl="1"></BrghtWght>
+								<BrghtWght val="1." chnl="2"></BrghtWght>
+								<BrghtWght val="1." chnl="3"></BrghtWght>
+								<BrghtWght val="1." chnl="4"></BrghtWght>
+								<BrghtWght val="1." chnl="5"></BrghtWght>
+							</ChnlWghtBrght>
+						</Map>
+					</Brightness>
+					<AllVrblClss></AllVrblClss>
+					<AllSubClss></AllSubClss>
+					<AllTerm></AllTerm>
+				</ClssHrchy>
+				<MapVrblCntnr></MapVrblCntnr>
+				<FtrListVrblCntnr></FtrListVrblCntnr>
+				<CoordVrblCntnr></CoordVrblCntnr>
+				<ROIVrblCntnr></ROIVrblCntnr>
+				<ImgObjListVrblCntnr></ImgObjListVrblCntnr>
+				<ArrayCntnr>
+					<Arrays></Arrays>
+					<ArrayVrbls></ArrayVrbls>
+				</ArrayCntnr>
+			</ObjectDependencies>
+		</Properties>
+		<Dependencies>
+			<ProjectStateRequired>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRequired>
+			<ProjectStateAdd>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateAdd>
+			<ProjectStateRemoved>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRemoved>
+			<ProjectStateForbidden>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateForbidden>
+		</Dependencies>
+	</ActionDefinition>
+</ActionFile>

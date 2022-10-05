@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionFile>
+	<ActionDefinition name="UserInteraction" id="New Item" icon="" state-icon-variable="parameter_UI" filter="B" guid="418B95A2-E108-11EC-BCED-2C44FD3306E5" use_only_once="1" priority="0" can-remove="1">
+		<RuleSet file="ruleset.dcp"></RuleSet>
+		<Description>The user can conduct a multiresolution segmentation within the selected objects only.</Description>
+		<Process name="SecondStep" parameter_set="param_setActionChessboard"></Process>
+		<Properties>
+			<Group text="Group" color="4802118" text_color="13948887" color_3dshade="2828328"></Group>
+			<Group text="Selection" color="4802118" text_color="13948887" color_3dshade="2828328">
+				<Button text="" left-margin="-1" description="" img="" mode="push" button_text="Warning" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="SecondStep//check" release=""></Process>
+				</Button>
+				<Button text="Selection" left-margin="-1" description="Select the chessboard objects" img="" mode="push" button_text="Select Object" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="SecondStep//select input mode: rectangle object selection" release=""></Process>
+					<Description>Select the chessboard objects</Description>
+				</Button>
+				<Button text="Objects" left-margin="-1" description="Are you sure?" img="" mode="push" button_text="Confirm Selection" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="SecondStep//selection" release=""></Process>
+					<Description>Are you sure?</Description>
+				</Button>
+				<Slider text="text" left-margin="-1" description="" variable="var_scale2" dscr="" ruleset="" left-text="" right-text="">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<vrblMin>
+						<DValue value="10." type="double"></DValue>
+					</vrblMin>
+					<vrblMax>
+						<DValue value="50." type="double"></DValue>
+					</vrblMax>
+					<vrblTickFreq>
+						<DValue value="5." type="double"></DValue>
+					</vrblTickFreq>
+					<vrblJump>
+						<DValue value="5." type="double"></DValue>
+					</vrblJump>
+				</Slider>
+				<Button text="Segment" left-margin="-1" description="MultiResolutionSegementation" img="" mode="push" button_text="Run_MRS" hor_offset="0" width="0">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process push="SecondStep//temp at  New Level: multi-resolution: var_scale2 [shape:0.1 compct.:0.5]" release=""></Process>
+					<Description>MultiResolutionSegementation</Description>
+				</Button>
+			</Group>
+			<Group text="Description" color="4802118" text_color="13948887" color_3dshade="2828328">
+				<Description text="text" left-margin="-1" description="Description">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+				</Description>
+			</Group>
+			<ObjectDependencies>
+				<ImgLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ImgLayers>
+				<ThmLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ThmLayers>
+				<MapLvlProxyCntnr>
+					<MapLvlProxies></MapLvlProxies>
+					<MapLvlVrblValues></MapLvlVrblValues>
+				</MapLvlProxyCntnr>
+				<ProcVrblCntnr>
+					<ProcVrbl iId="6" eType="1">
+						<DValue value="50." type="double"></DValue>
+						<NameExpr strTextExpr="var_scale2"></NameExpr>
+						<Scope GUID="00000000-0000-0000-0000-000000000000"></Scope>
+						<SharedInfo bShared="0" strInstGUID=""></SharedInfo>
+					</ProcVrbl>
+				</ProcVrblCntnr>
+				<ClssHrchy EvalInvalid="1" MinProb="0.10000000000000000555111512312578270212" NNSlope="0.20000000000000001110223024625156540424" RdiResamplOptns="3">
+					<AllClss></AllClss>
+					<PropTree version="20100426">
+						<AllProps></AllProps>
+						<UserGroups></UserGroups>
+					</PropTree>
+					<Brightness>
+						<Map MapName="main">
+							<ChnlWghtBrght>
+								<BrghtWght val="1." chnl="0"></BrghtWght>
+								<BrghtWght val="1." chnl="1"></BrghtWght>
+								<BrghtWght val="1." chnl="2"></BrghtWght>
+								<BrghtWght val="1." chnl="3"></BrghtWght>
+								<BrghtWght val="1." chnl="4"></BrghtWght>
+								<BrghtWght val="1." chnl="5"></BrghtWght>
+							</ChnlWghtBrght>
+						</Map>
+					</Brightness>
+					<AllVrblClss></AllVrblClss>
+					<AllSubClss></AllSubClss>
+					<AllTerm></AllTerm>
+				</ClssHrchy>
+				<MapVrblCntnr></MapVrblCntnr>
+				<FtrListVrblCntnr></FtrListVrblCntnr>
+				<CoordVrblCntnr></CoordVrblCntnr>
+				<ROIVrblCntnr></ROIVrblCntnr>
+				<ImgObjListVrblCntnr></ImgObjListVrblCntnr>
+				<ArrayCntnr>
+					<Arrays></Arrays>
+					<ArrayVrbls></ArrayVrbls>
+				</ArrayCntnr>
+			</ObjectDependencies>
+		</Properties>
+		<Dependencies>
+			<ProjectStateRequired>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRequired>
+			<ProjectStateAdd>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateAdd>
+			<ProjectStateRemoved>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRemoved>
+			<ProjectStateForbidden>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateForbidden>
+		</Dependencies>
+	</ActionDefinition>
+</ActionFile>

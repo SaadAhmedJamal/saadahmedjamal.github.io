@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionLibrary version="1." guid="A0960C11-E100-11EC-BCED-2C44FD3306E5" name="New Action Library" author="" company="" read-only="0" default-solution="" 3d-look="1">
+	<Description></Description>
+	<Properties></Properties>
+	<BackwardCompatibility></BackwardCompatibility>
+	<ActionFilterList>
+		<ActionFilter id="A" red="0" green="0" blue="255" red_shade3D="255" green_shade3D="255" blue_shade3D="255" name="Group A Segmentation"></ActionFilter>
+		<ActionFilter id="B" red="0" green="255" blue="0" red_shade3D="255" green_shade3D="255" blue_shade3D="255" name="Group B User Interaction"></ActionFilter>
+	</ActionFilterList>
+	<ActionFileList>
+		<ActionFile file="actionchessboard.xml"></ActionFile>
+		<ActionFile file="UserInteraction.xml"></ActionFile>
+		<ActionFile file="UserInteractionAgainPractice.xml"></ActionFile>
+	</ActionFileList>
+	<Preload></Preload>
+</ActionLibrary>

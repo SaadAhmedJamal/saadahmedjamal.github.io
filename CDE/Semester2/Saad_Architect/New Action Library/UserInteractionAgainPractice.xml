@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionFile>
+	<ActionDefinition name="UserInteraction_Again_Practice" id="UserInteraction_Again_Practice" icon="" state-icon-variable="param_UI2" filter="B" guid="9C2C6758-E1A5-11EC-8F28-F0921CEFC433" use_only_once="1" priority="0" can-remove="1">
+		<RuleSet file="ruleset.dcp"></RuleSet>
+		<Description>Practice</Description>
+		<Process name="ThirdStep" parameter_set="param_set_UI2"></Process>
+		<Properties>
+			<Group color_3dshade="2828328" text_color="13948887" color="4802118" text="Group">
+				<Button width="0" hor_offset="0" button_text="Select" mode="push" img="" description="" left-margin="-1" text="">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process release="" push="ThirdStep//select input mode: rectangle object selection"></Process>
+				</Button>
+				<Button width="0" hor_offset="0" button_text="Confirm" mode="push" img="" description="Confirm selection" left-margin="-1" text="">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process release="" push="ThirdStep//selection"></Process>
+					<Description>Confirm selection</Description>
+				</Button>
+				<Button width="0" hor_offset="0" button_text="Run MRS" mode="radio" img="" description="No problem" left-margin="100" text="">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+					<RuleSet file="ruleset.dcp"></RuleSet>
+					<Process release="" push="temp at  New Level: multi-resolution: 5 [shape:0.2 compct.:0.8]"></Process>
+					<Description>No problem</Description>
+				</Button>
+			</Group>
+			<Group color_3dshade="2828328" text_color="13948887" color="4802118" text="Description">
+				<Description description="Description" left-margin="-1" text="text">
+					<visibility_threshold></visibility_threshold>
+					<enable_threshold></enable_threshold>
+				</Description>
+			</Group>
+			<ObjectDependencies>
+				<ImgLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ImgLayers>
+				<ThmLayers>
+					<ChnlProxyCntnr>
+						<Layers></Layers>
+						<Variables></Variables>
+					</ChnlProxyCntnr>
+				</ThmLayers>
+				<MapLvlProxyCntnr>
+					<MapLvlProxies></MapLvlProxies>
+					<MapLvlVrblValues></MapLvlVrblValues>
+				</MapLvlProxyCntnr>
+				<ProcVrblCntnr></ProcVrblCntnr>
+				<ClssHrchy RdiResamplOptns="3" NNSlope="0.20000000000000001110223024625156540424" MinProb="0.10000000000000000555111512312578270212" EvalInvalid="1">
+					<AllClss></AllClss>
+					<PropTree version="20100426">
+						<AllProps></AllProps>
+						<UserGroups></UserGroups>
+					</PropTree>
+					<Brightness>
+						<Map MapName="main">
+							<ChnlWghtBrght>
+								<BrghtWght chnl="0" val="1."></BrghtWght>
+								<BrghtWght chnl="1" val="1."></BrghtWght>
+								<BrghtWght chnl="2" val="1."></BrghtWght>
+								<BrghtWght chnl="3" val="1."></BrghtWght>
+								<BrghtWght chnl="4" val="1."></BrghtWght>
+								<BrghtWght chnl="5" val="1."></BrghtWght>
+							</ChnlWghtBrght>
+						</Map>
+					</Brightness>
+					<AllVrblClss></AllVrblClss>
+					<AllSubClss></AllSubClss>
+					<AllTerm></AllTerm>
+				</ClssHrchy>
+				<MapVrblCntnr></MapVrblCntnr>
+				<FtrListVrblCntnr></FtrListVrblCntnr>
+				<CoordVrblCntnr></CoordVrblCntnr>
+				<ROIVrblCntnr></ROIVrblCntnr>
+				<ImgObjListVrblCntnr></ImgObjListVrblCntnr>
+				<ArrayCntnr>
+					<Arrays></Arrays>
+					<ArrayVrbls></ArrayVrbls>
+				</ArrayCntnr>
+			</ObjectDependencies>
+		</Properties>
+		<Dependencies>
+			<ProjectStateRequired>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRequired>
+			<ProjectStateAdd>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateAdd>
+			<ProjectStateRemoved>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateRemoved>
+			<ProjectStateForbidden>
+				<SceneState></SceneState>
+				<ImgObjState></ImgObjState>
+			</ProjectStateForbidden>
+		</Dependencies>
+	</ActionDefinition>
+</ActionFile>
