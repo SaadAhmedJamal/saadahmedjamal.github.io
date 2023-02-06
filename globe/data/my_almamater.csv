@@ -1,0 +1,4 @@
+id,type,name,latitude_deg,longitude_deg,elevation_ft,continent,iso_country,iso_region,city,scheduled_service,gps_code,local_code,degree,abbreviation,
+1,University,National University of Sciences and Technology,33.6425,72.993,3000,Asia,Pakistan,US-PA,Islamabad,no,00A,45000,Bachelor in Geoinformatics Engineering,NUST,
+2,Univeristat,University of Salzburg,47.7972,13.0481,2000,Europe,Austria,US-KS,Salzburg,no,00AA,5020,Master in Earth Observation and Geoinformatics,PLUS,
+3,Univeriste,University of South Brinttany,47.6448,-2.7478,2000,Europe,France,US-AK,Vannes,no,00AK,56000,Master in Geo-Data Science,UBS,
