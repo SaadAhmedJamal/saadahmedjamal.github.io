@@ -76,6 +76,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+
 	}
 
 	*, *:before, *:after {
@@ -84,6 +85,7 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -225,7 +227,7 @@ input, select, textarea {
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 50px);
+		max-width: calc(100% - 0px);
 		width: 1200px;
 	}
 
