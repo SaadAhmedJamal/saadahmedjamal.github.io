@@ -2,22 +2,146 @@
 <html>
 <head>
   <title>PDF Viewer</title>
+
+    <style>
+      /* Custom styles for headings */
+      h1, h2, h3, h4 {
+        color: #333;
+        text-align: center;
+        cursor: pointer;
+        transition: color 0.3s ease-in-out;
+      }
+      
+      h1:hover, h2:hover, h3:hover, h4:hover {
+        color: #8cd448;
+      }
+      
+      /* Smooth scrolling effect */
+      body {
+        scroll-behavior: smooth;
+      }
+
+
+
+    
+    .dagshub-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .dagshub-text {
+    position: relative;
+    z-index: 2;
+  }
+
+  .dagshub-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #958888;
+    transform-origin: top left;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+  }
+
+  .dagshub-link:hover .dagshub-circle {
+    transform: scaleX(1);
+  }
+
+    </style>
+
+
 </head>
 <body>
-  <h2>PDF Viewer</h2>
+  <div id="section-1" style="background-color: #f4f4f4;">
+
+  <center>
+  <a href="#" class="dagshub-link">
+    <span class="dagshub-text"><h1>Certifications</h1></span>
+    <span class="dagshub-circle"></span>
+  </a>
+  </center>
+  
+  </div>
+  
+  <hr>
+  <a href="#" class="dagshub-link">
+    <span class="dagshub-text">
+  <br><p>  <font size="+1.5">Developed proficiency in statistical analysis, machine learning, data visualization, and predictive modeling. 
+    Learn to derive meaningful insights from complex datasets and make data-driven decisions. Acquired the knowledge and tools 
+    to solve real-world problems using data science techniques. Completed number of certifications is <font size="+1.5"><strong>100+</strong></font>. Following certificates shows the list of my certifications completed:</p><br>
+  </font></span>
+  <span class="dagshub-circle"><font size="+2">Brief</font>  </span>
+  </a>
+  <!--<h1 onclick="scrollToSection('section1')">Heading 1</h1>  
+  <h3 onclick="scrollToSection('section3')">Heading 3</h3>
+  <h4 onclick="scrollToSection('section4')">Heading 4</h4>-->
+  <hr>
+
+  <div id="section0" style="background-color: #e9e8e8;">
+
+
+  <h2 onclick="scrollToSection('section1')">MOOC: Massive Online Open Course</h2>
+  <h2 onclick="scrollToSection('section2')">Advanced Spatial Analysis</h2>
+  <h2 onclick="scrollToSection('section3')">Advanced Spatial Data Management</h2>
+  <h2 onclick="scrollToSection('section4')">Crime Analysis</h2>
+  <h2 onclick="scrollToSection('section5')">Image Classification</h2>
+  <h2 onclick="scrollToSection('section6')">Location, Graph and Charts</h2>
+  <h2 onclick="scrollToSection('section7')">Others</h2>
+  <h2 onclick="scrollToSection('section8')">Scripting Python and R</h2>
+  <h2 onclick="scrollToSection('section9')">Spatial Analysis</h2>
+  <h2 onclick="scrollToSection('section10')">Spatial Data Management</h2>
+  <h2 onclick="scrollToSection('section11')">Spatial Statistics</h2>
+  <h2 onclick="scrollToSection('section12')">Visualization</h2>
+
+  </div>
+
+  <hr>
+  
+
+  
+  <script>
+    // Smooth scrolling function
+    function scrollToSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+
+
+<br>
+<div id="section1" style="background-color: #f8f8f8;">
+  <h2>Spatial Data Science</h2>
 
   <object data="list/SpatialDataScience/Spatial Data Science_ The New Frontier in Analytics_Certificate_11102022.pdf" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="list/SpatialDataScience/Spatial Data Science_ The New Frontier in Analytics_Certificate_11102022.pdf">Download</a> instead.</p>
   </object>
 
-
+  <h2>Cartography</h2>
   <object data="list/Cartography/Cartography._Certificate_04022023.pdf" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p>
   </object>
 
+</div>
+
+
+<div id="section2" style="background-color: #f8f8f8;">
+
+ <hr> 
 <br><br>
+<hr>
+<h2>ESRI Academy</h2>
+<hr>
 <h2>Advanced Spatial Analysis</h2>
 <br>
+
+
   <object data="list/EsriAcad/Advanced Spatial Analysis/Creating a Space-Time Cube_Certificate_05212023.pdf" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p>
   </object>
@@ -50,8 +174,10 @@
   <object data="list/EsriAcad/Advanced Spatial Analysis/Suitability Modeling_ Introduction_Certificate_05222023.pdf" type="application/pdf" width="100%" height="700px">
     <p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p>
   </object>
+</div>
 
 
+<div id="section3" style="background-color: #dedede;">
   <br><br>
   <h2>Advanced Spatial Data Management</h2>
   <br>
@@ -67,8 +193,9 @@
   <object data="list/EsriAcad/Advanced Spatial Data Management/Sharing 3D Content Using Scene Layer Packages_Certificate_05152023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
 
   <object data="list/EsriAcad/Advanced Spatial Data Management/Working with NetCDF Data in ArcGIS Pro_Certificate_05242023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  </div>
 
-
+  <div id="section4" style="background-color: #d1d1d1;">
   <br><br>
   <h2>Crime Analysis</h2>
   <br>
@@ -80,8 +207,11 @@
   <object data="list/EsriAcad/CrimeAnalysis/Crime Analysis Solution_ Investigative Analysis_Certificate_05152023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/CrimeAnalysis/Crime Analysis Solution_ Selections and Queries_Certificate_05152023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/CrimeAnalysis/Crime Analysis Solution_ Tactical and Strategic Analysis_Certificate_05152023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+    </div>
 
-  <br><br>
+
+  <div id="section5">
+  <br><br><hr>
   <h2>Image Classification</h2>
   <br>
   <object data="list/EsriAcad/ImageClassification/Introduction to Image Classification_Certificate_03132023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
@@ -90,12 +220,13 @@
   <object data="list/EsriAcad/ImageClassification/Performing Supervised Object-Based Image Classification_Certificate_03142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/ImageClassification/Performing Supervised Pixel-Based Image Classification_Certificate_03142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/ImageClassification/Performing Unsupervised Pixel-Based Image Classification_Certificate_03142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-
-
-  <br><br>
-  <h2>Location </h2>
+    </div>
+  
+  <div id="section6">
+  <br><br><hr>
+  <h2>Location Graph and Charts</h2>
   <br>
-
+  </div>
   <object data="list/EsriAcad/Location/Creating an Origin-Destination Cost Matrix in ArcGIS Pro_Certificate_05122023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/Location/Creating Optimized Routes Using ArcGIS Pro_Certificate_05112023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/Location/Finding the Closest Facilities Using ArcGIS Pro_Certificate_05112023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
@@ -103,9 +234,99 @@
   <object data="list/EsriAcad/Location/Generating Service Areas Using ArcGIS Pro_Certificate_05042023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/Location/Location-Enabling Data_Certificate_03202023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
   <object data="list/EsriAcad/Location/Mapping Addresses and Places_Certificate_03252023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-  <object data="list/EsriAcad/Location/Optimizing Routes for Efficient Fleet Management_Certificate_05142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object  data="list/EsriAcad/Location/Optimizing Routes for Efficient Fleet Management_Certificate_05142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="#">View PDF</a> instead.</p></object>
 
 
+  <div id="section7">
+  <br><br><hr>
+  <h2>Others </h2>
+  <br>
+
+  <object data="list/EsriAcad/Others/Basics of JavaScript Web Apps_Certificate_03142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Others/GIS Basics_Certificate_03142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  </div>
+
+  <div id="section8">
+  <br><br><hr>
+  <h2>Scripting Python and R </h2>
+  <br>
+
+  <object data="list/EsriAcad/ScriptingPythonandR/ArcGIS Notebooks Basics_Certificate_02232023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Creating Python Scripts for Raster Analysis_Certificate_03012023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Integrating R Scripts into ArcGIS Geoprocessing Tools_Certificate_03012023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Python for Everyone_Certificate_02232023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Python Scripting for Geoprocessing Workflows_Certificate_03012023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Using the R-ArcGIS Bridge_Certificate_03012023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/ScriptingPythonandR/Visualizing Data Using ArcGIS API for Python_Certificate_03012023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  </div>
+  
+  <div id="section9">
+  <br><br><hr>
+  <h2>Spatial Analysis</h2>
+  <br>
+
+  <object data="list/EsriAcad/SpatialAnalysis/Understanding Spatial Relationships_Certificate_03132023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Building Geoprocessing Models Using ArcGIS Pro_Certificate_03132023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Calculating Density Using ArcGIS_Certificate_03132023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Distance Analysis_ Creating Cost Surfaces_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Getting Started with Geoprocessing_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Getting Started with Spatial Analysis_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Introduction to Distance Analysis_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Performing Line of Sight Analysis_Certificate_03122023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Querying Data Using ArcGIS Pro_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Summarizing Data by Spatial Relationships_Certificate_03132023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialAnalysis/Terrain Analysis Using ArcGIS Pro_Certificate_03122023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+    </div>
+
+  <div id="section10">
+      <br><br><hr>
+      <h2>Spatial Data Management </h2>
+      <br>
+    
+  <object data="list/EsriAcad/SpatialDataManagment/Displaying Raster Data in ArcGIS_Certificate_05222023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialDataManagment/Editing Basics in ArcGIS Pro_Certificate_05232023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialDataManagment/Getting Started with Data Management_Certificate_05152023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialDataManagment/Getting Started with the Geodatabase_Certificate_05232023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialDataManagment/Integrating Data in ArcGIS Pro_Certificate_05212023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialDataManagment/Managing Raster Data Using ArcGIS_Certificate_05222023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+    </div>
+
+
+  <div id="section11">
+  <br><br><hr>
+  <h2>Spatial Statistics</h2>
+  <br>
+
+  <object data="list/EsriAcad/SpatialStatistics/Introduction to Regression Analysis Using ArcGIS Pro_Certificate_03052023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialStatistics/Geostatistical Interpolation_ Introduction_Certificate_03052023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialStatistics/Geostatistical Interpolation_ Reaggregating Data Using Areal Interpolation_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/SpatialStatistics/Geostatistical Interpolation_ Using Empirical Bayesian Kriging and EBK Regression Prediction_Certificate_03062023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+    </div>
+
+
+    <div id="section12">
+      <br><br><hr>
+      <h2>Visualization</h2>
+      <br>
+  <object data="list/EsriAcad/Visualization/Creating a Map Layout_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Creating and Sharing Animation in ArcGIS Pro_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Introduction to 3D Visualization_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Labeling Map Features_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Sharing Maps and Layers with ArcGIS Pro_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Symbolizing Map Layers_Certificate_05142023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+  <object data="list/EsriAcad/Visualization/Creating Vector Tiles in ArcGIS Pro_Certificate_05172023.pdf" type="application/pdf" width="100%" height="700px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+      </div>
+
+
+
+<br><br>
+
+<center>
+  <a href="#END" class="dagshub-link">
+    <span class="dagshub-text"><h1>END</h1></span>
+    <span class="dagshub-circle">end of list</span>
+  </a>
+  </center>
 
 
 </body>
