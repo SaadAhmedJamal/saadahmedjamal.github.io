@@ -5,13 +5,12 @@
 ``` Personal Portfolio ``` 
 
 
-## Animated Heading
 
 <span class="badge badge-primary">
   <h2 class="animated infinite bounce">Welcome to my e-portfolio!</h2>
 </span>
 
-Welcome to my e-portfolio!
+
 
 I am delighted to present to you a curated collection of my work, experiences, and achievements. This portfolio is a reflection of my journey, showcasing my skills, passion, and dedication in Geoinformatics.
 
