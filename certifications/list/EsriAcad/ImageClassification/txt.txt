@@ -1,0 +1,26 @@
+
+The following ESRI Academy courses have to be completed:
+1. Introduction to Image Classification
+2. Performing Unsupervised Pixel Based Image Classification
+3. Performing Supervised Pixel Based Image Classification
+4. Performing Supervised Object Based Image Classification
+5. Performing Accuracy Assessment for Image Classification
+6. Change Detection Using Imagery
+
+Current links to the above courses:
+1. https://www.esri.com/training/catalog/5c0ff7155daae879f4879239/introduction-to-image-classification/
+2. https://www.esri.com/training/catalog/5c6caa568334bc4573a83335/performing-unsupervised-pixel-based-image-classification/
+3. https://www.esri.com/training/catalog/5c75869c65e21d6e2187b712/performing-supervised-pixel-based-image-classification/
+4. https://www.esri.com/training/catalog/5c9a65e0190cf23eac628f9c/performing-supervised-object-based-image-classification/
+5. https://www.esri.com/training/catalog/5c9a727b190cf23eac62a78f/performing-accuracy-assessment-for-image-classification/
+6. http://www.esri.com/training/catalog/57630431851d31e02a43ee33/change-detection-using-imagery
+Previous knowledge expected
+no
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further details: https://msc-agi.zgis.at/electives/
+Further information-

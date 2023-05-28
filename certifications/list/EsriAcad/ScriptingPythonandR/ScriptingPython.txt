@@ -1,0 +1,27 @@
+Description
+Content
+The following ESRI Virtual Campus courses have to be completed:
+1. Python for Everyone
+2. ArcGIS Notebooks Basics
+3. Python Scripting for Geoprocessing Workflows
+4. Creating Python Scripts for Raster Analysis
+5. Visualizing Data Using ArcGIS API for Python
+6. Using the R-ArcGIS Bridge
+7. Integrating R Scripts into ArcGIS Geoprocessing Tools
+
+
+Current links to the above courses:
+1. https://www.esri.com/training/catalog/57630436851d31e02a43f13c/python-for-everyone/
+2. https://www.esri.com/training/catalog/5fd024722831fd696d26d53b/arcgis-notebooks-basics/
+3. https://www.esri.com/training/catalog/5763042c851d31e02a43ed84/python-scripting-for-geoprocessing-workflows/
+4. https://www.esri.com/training/catalog/57f44b70362fd58367ab41ee/creating-python-scripts-for-raster-analysis/
+5. https://www.esri.com/training/catalog/61dde71ef8883b7c7cfbe7c7/visualizing-data-using-arcgis-api-for-python/
+6. https://www.esri.com/training/catalog/58b5e417b89b7e000d8bfe45/using-the-r-arcgis-bridge/
+7. https://www.esri.com/training/catalog/58b5e578b89b7e000d8bfffd/integrating-r-scripts-into-arcgis-geoprocessing-tools/
+Previous knowledge expected-
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements.
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)

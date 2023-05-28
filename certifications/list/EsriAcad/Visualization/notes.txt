@@ -1,0 +1,17 @@
+The following ESRI Virtual Campus courses have to be completed:
+1. Symbolizing Map Layers
+2. Labeling Map Features
+3. Creating a Map Layout
+4. Sharing Maps and Layers with ArcGIS Pro
+5. Introduction to 3D Visualization
+6. Creating and Sharing Animation in ArcGIS Pro
+7. Creating Vector Tiles in ArcGIS Pro
+
+Current links:
+1. https://www.esri.com/training/catalog/5ca28d18780a171ba3ec188a/symbolizing-map-layers/
+2. https://www.esri.com/training/catalog/5cd207746b7be962099c21fc/labeling-map-features/
+3. https://www.esri.com/training/catalog/5ce42f0c88c6106da2d52fdc/creating-a-map-layout/
+4. https://www.esri.com/training/catalog/57630436851d31e02a43f0eb/sharing-maps-and-layers-with-arcgis-pro/
+5. https://www.esri.com/training/catalog/6092b5f623a70353a4ab964c/introduction-to-3d-visualization/
+6. https://www.esri.com/training/catalog/58517380d33f8b0b47b78e3f/creating-and-sharing-animation-in-arcgis-pro/
+7. https://www.esri.com/training/catalog/5851736fd33f8b0b47b78e26/creating-vector-tiles-in-arcgis-pro/

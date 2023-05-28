@@ -1,0 +1,24 @@
+The following ESRI Academy courses have to be completed:
+1. Getting Started with Data Management
+2. Integrating Data in ArcGIS Pro
+3. Managing Raster Data Using ArcGIS
+4. Displaying Raster Data in ArcGIS
+5. Getting Started with the Geodatabase
+6. Editing Basics in ArcGIS Pro
+
+Current links to the above courses:
+1. https://www.esri.com/training/catalog/5c9a7395190cf23eac62a998/getting-started-with-data-management/
+2. https://www.esri.com/training/catalog/57630436851d31e02a43f0fd/integrating-data-in-arcgis-pro/
+3. http://www.esri.com/training/catalog/57630434851d31e02a43ef0d/managing-raster-data-using-arcgis
+4. https://www.esri.com/training/catalog/5bcf6a3218e35b787fb17c86/displaying-raster-data-in-arcgis/
+5. http://www.esri.com/training/catalog/57630436851d31e02a43f19e/getting-started-with-the-geodatabase
+6. http://www.esri.com/training/catalog/5a9f11d1c5c7c34872fcc218/editing-basics-in-arcgis-pro
+Previous knowledge expected
+no
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements.
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further details: https://msc-agi.zgis.at/electives

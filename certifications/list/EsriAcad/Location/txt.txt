@@ -1,0 +1,33 @@
+The following ESRI Academy courses have to be completed:
+1.	Location Enabling Data
+2.	Mapping Addresses and Places
+3.	Generating Service Areas Using ArcGIS Pro
+4.	Creating Optimized Routes Using ArcGIS Pro
+5.	Finding the Optimal Location of Facilities Using ArcGIS Pro
+6.	Finding the Closest Facilities Using ArcGIS Pro
+7.	Creating an Origin-Destination Cost Matrix in ArcGIS Pro
+8.	Optimizing Routes for efficient fleet management
+
+Current links to the above courses:
+1.	https://www.esri.com/training/catalog/5d93abcfea17287deea89a7c/location-enabling-data/ 
+2.	https://www.esri.com/training/catalog/5db86f75e5aa0452315ddfa6/mapping-addresses-and-places/ 
+3.	https://www.esri.com/training/catalog/57bcfdd581e455607e4a59aa/generating-service-areas-using-arcgis-pro/ 
+4.	https://www.esri.com/training/catalog/57ae3ba542de278c0a03657f/creating-optimized-routes-using-arcgis-pro/ 
+5.	https://www.esri.com/training/catalog/57630433851d31e02a43eeef/finding-the-optimal-location-of-facilities-using-arcgis-pro/ 
+6.	https://www.esri.com/training/catalog/57eb07e1ee85c0f5204b5253/finding-the-closest-facilities-using-arcgis-pro/ 
+7.	https://www.esri.com/training/catalog/582253de4c37b1a46f677c0b/creating-an-origin-destination-cost-matrix-in-arcgis-pro/
+8.	https://www.esri.com/training/catalog/5a1da3e0e79aee27e8839e8b/optimizing-routes-for-efficient-fleet-management/
+Previous knowledge expected
+no
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements.
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further details: https://msc-agi.zgis.at/electives/
+
+
+
+Assessment Scheme
+When you have completed the courses required for class credit save the ESRI Academy course certificates issued upon completing tests / exams as pdf files, register for the class in PLUS online and send pdf certificates to esri.vc@sbg.ac.at. Class credits will then be entered to show up on your transcript.

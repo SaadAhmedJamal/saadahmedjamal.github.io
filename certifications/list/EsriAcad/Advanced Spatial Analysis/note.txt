@@ -1,0 +1,28 @@
+The following ESRI Academy courses have to be completed:
+1.	Introduction to Space-Time Analysis
+2.	Creating a space time cube
+3.	Space-Time Analysis: Finding Temporal Trends
+4.	Mapping Clusters: Introduction to Statistical Cluster Analysis
+5.	Mapping Clusters: Hot Spot and Cluster and Outlier Analysis
+6.	Mapping Clusters: Optimized Hot Spot and Optimized Outlier Analysis
+7.	Suitability Modeling: Introduction
+8.	Suitability Modeling: Creating a Weighted Suitability Model
+
+Current links to the above courses:
+1.	https://www.esri.com/training/catalog/5cacfe6b61a32c31b715f8ae/introduction-to-space-time-analysis/
+2.	https://www.esri.com/training/catalog/5cc72c236b7be962098d2fd3/creating-a-space-time-cube/
+3.	https://www.esri.com/training/catalog/5cf6d5842845f65b2cca2e67/space-time-analysis%3A-finding-temporal-trends
+4.	https://www.esri.com/training/catalog/5d39b6106b9c17664bb656eb/mapping-clusters%3A-introduction-to-statistical-cluster-analysis/
+5.	https://www.esri.com/training/catalog/5d39b7916b9c17664bb65a3b/mapping-clusters%3A-hot-spot-and-cluster-and-outlier-analysis/
+6.	https://www.esri.com/training/catalog/5d39b6d66b9c17664bb65992/mapping-clusters%3A-optimized-hot-spot-and-optimized-outlier-analysis/
+7.	https://www.esri.com/training/catalog/6007454b6bf5b1688a23b581/suitability-modeling%3A-introduction/
+8.	https://www.esri.com/training/catalog/5fab469601141948c3ce17c6/suitability-modeling%3A-creating-a-weighted-suitability-model/
+Previous knowledge expected
+ESRI VC Spatial Analysis or similar
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements.
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further details: https://msc-agi.zgis.at/electives/

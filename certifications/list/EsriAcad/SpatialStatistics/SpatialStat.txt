@@ -1,0 +1,12 @@
+
+The following ESRI Academy courses have to be completed:
+1. Introduction to Regression Analysis Using ArcGIS Pro
+2. Geostatistical Interpolation: Introduction
+3. Using Empirical Bayesian Kriging and EBK Regression Prediction
+4. Reaggregating Data Using Areal Interpolation
+
+Current links to the above courses:
+1. https://www.esri.com/training/catalog/57630430851d31e02a43ee0c/introduction-to-regression-analysis-using-arcgis-pro/
+2. https://www.esri.com/training/catalog/5d8a8c9055cf937306dba777/geostatistical-interpolation%3A-introduction/
+3. https://www.esri.com/training/catalog/5dcb0b0be4212b48e18f9187/geostatistical-interpolation%3A-using-empirical-bayesian-kriging-and-ebk-regression-prediction/
+4. https://www.esri.com/training/catalog/5e274dcce6dcc22c5890eae1/geostatistical-interpolation%3A-reaggregating-data-using-areal-interpolation/

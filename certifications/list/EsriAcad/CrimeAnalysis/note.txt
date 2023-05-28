@@ -1,0 +1,17 @@
+The following ESRI Academy courses have to be completed:
+1. Introduction to the Crime Analysis Solution
+2. Crime Analysis Solution: Creating Information Products
+3. Crime Analysis Solution: Data Management
+4. Crime Analysis Solution: Cell Phone Analysis
+5. Crime Analysis Solution: Investigative Analysis
+6. Crime Analysis Solution: Selections and Queries
+7. Crime Analysis Solution: Tactical and Strategic Analysis
+
+Current links to the above courses:
+1. http://www.esri.com/training/catalog/5bc656d2f77b99238f7f9227/introduction-to-the-crime-analysis-solution
+2. http://www.esri.com/training/catalog/5c1002c864df641f3432a241/crime-analysis-solution:-creating-information-products
+3. http://www.esri.com/training/catalog/5bd8cd61166cf041da814ee4/crime-analysis-solution:-data-management
+4. https://www.esri.com/training/catalog/5e8ce8d81fe054449dca1c90/crime-analysis-solution%3A-cell-phone-analysis/
+5. http://www.esri.com/training/catalog/5bfd8b16b966163fed3c1bbb/crime-analysis-solution:-investigative-analysis
+6. http://www.esri.com/training/catalog/5bd8cd41166cf041da814e20/crime-analysis-solution:-selections-and-queries
+7. http://www.esri.com/training/catalog/5bd8cd26166cf041da814dea/crime-analysis-solution:-tactical-and-strategic-analysis

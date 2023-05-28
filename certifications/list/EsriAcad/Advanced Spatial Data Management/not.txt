@@ -1,0 +1,25 @@
+
+The following ESRI Academy courses have to be completed:
+1. Sharing 3D-content using Scene Layer Packages
+2. Automating Workflows Using ArcGIS Pro Tasks
+3. Introduction to 3D Data
+4. Authoring 3D Scenes
+5. Creating 3D Features from Existing Data
+6. Working with NetCDF Data in ArcGIS Pro
+
+Current links to the above courses:
+1. https://www.esri.com/training/catalog/58471aa5fb83aeb761847d7f/sharing-3d-content-using-scene-layer-packages/
+2. http://www.esri.com/training/catalog/57957ed130a990c02999b51c/automating-workflows-using-arcgis-pro-tasks
+3. https://www.esri.com/training/catalog/5e42f6f9a333e81cae770275/introduction-to-3d-data/
+4. https://www.esri.com/training/catalog/5e70eb2417148e49006ea3c6/authoring-3d-scenes/
+5. https://www.esri.com/training/catalog/61b8cfb03e0b1341e9ad8f5c/creating-3d-features-from-existing-data/
+6. https://www.esri.com/training/catalog/58752ca5f19198a37af7f025/working-with-netcdf-data-in-arcgis-pro/
+Previous knowledge expected
+EsriAcad:Spatial Data Management or similar
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/ (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further details: https://msc-agi.zgis.at/electives

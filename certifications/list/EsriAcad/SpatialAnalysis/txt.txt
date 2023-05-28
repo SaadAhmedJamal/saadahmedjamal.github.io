@@ -1,0 +1,34 @@
+
+The following Esri Academy courses have to be completed:
+1. Getting Started with Spatial Analysis
+2. Getting Started with Geoprocessing
+3. Querying Data Using ArcGIS Pro
+4. Introduction to Distance Analysis
+5. Distance Analysis: Creating Cost Surfaces
+6. Terrain Analysis Using ArcGIS Pro
+7. Performing Line of Sight Analysis
+8. Building Geoprocessing Models Using ArcGIS Pro
+9. Understanding Spatial Relationships
+10. Summarizing Data by Spatial Relationships
+11. Calculating Density Using ArcGIS
+
+Current links to the above courses:
+1. http://www.esri.com/training/catalog/5bca58f8f77b99238f845e1c/getting-started-with-spatial-analysis
+2. http://www.esri.com/training/catalog/5beb1e2df307e06204f915bc/getting-started-with-geoprocessing
+3. https://www.esri.com/training/catalog/57630433851d31e02a43eeaa/querying-data-using-arcgis-pro/
+4. https://www.esri.com/training/catalog/6047d95937c2dc6bb88d1582/introduction-to-distance-analysis/
+5. https://www.esri.com/training/catalog/60f737394415bb25f650da75/distance-analysis%3A-creating-cost-surfaces/
+6. https://www.esri.com/training/catalog/57630436851d31e02a43f18f/terrain-analysis-using-arcgis-pro/
+7. https://www.esri.com/training/catalog/57fd7a465413c49402a2dd9b/performing-line-of-sight-analysis/
+8. https://www.esri.com/training/catalog/57630433851d31e02a43eebc/building-geoprocessing-models-using-arcgis-pro/
+9. https://www.esri.com/training/catalog/5d091b34b415216e8f174c41/understanding-spatial-relationships/
+10. https://www.esri.com/training/catalog/602315b50356bb6a2617dd6c/summarizing-data-by-spatial-relationships/
+11. https://www.esri.com/training/catalog/59a5a7f3b66ef82f7a87b2b9/calculating-density-using-arcgis/
+Previous knowledge expected-
+Objective
+The online course units required for electives credit can be done at any time, there are no deadlines or specific requirements.
+Teaching and learning method-
+Course Criteria and Registration
+Courses: https://www.esri.com/training/  (with ESRI account available)
+If you do not have access: esri.vc@sbg.ac.at for invitation (only from university mail "@stud.sbg.ac.at" addresses)
+Further information-
