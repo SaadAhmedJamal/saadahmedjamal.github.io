@@ -5,6 +5,11 @@
 ``` Personal Portfolio ``` 
 
 
+## Animated Heading
+
+<span class="badge badge-primary">
+  <h2 class="animated infinite bounce">Welcome to my e-portfolio!</h2>
+</span>
 
 Welcome to my e-portfolio!
 
