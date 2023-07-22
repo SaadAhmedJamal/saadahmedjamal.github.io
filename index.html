@@ -17,6 +17,7 @@
 		<link rel="stylesheet" href="assets/css/stylesheet2.css" />
 		<!--<link rel="stylesheet" href="assets/css/style_card.css" />-->
 
+
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<!--Libraries for globe-->
@@ -65,6 +66,29 @@
   display: block;
 }
 
+.containered{
+	
+	display: flex;
+}
+
+/* Set the width and float properties to position the divs */
+.left--container {
+	flex: 1;
+    width: 50%;
+    float: left;
+    background-color: #f0f0f0; /* Optional background color */
+}
+
+.right--container {
+    flex: 1;
+	width: 50%;
+    float: right;
+    background-color: #f0f0f0; /* Optional background color */
+	overflow: hidden;
+
+}
+
+
 	</style>
 
 
@@ -83,25 +107,27 @@
 				<ul class="container">
 					<!-- 
 					<li><a href="#top">Top</a></li>
-					<li><a href="#contact">Contact</a></li>
 					<li><a href="Internship/Arbeitsbestätigung_Jamal_Saad_Ahmed.pdf">Certificate</a></li>
 
 										<li><a href="SummerSchool/SSI.html">Summer School I</a></li>
 
 					-->
-					<li><a href="SelectedTopics/indexed.html">Selected Topics in Geoinformatics</a></li>
+					<li><a href="#Research">Research</a></li>
+
+					<li><a href="CDE/CDE_index.html">CDE</a></li>
 					<li><a href="SummerSchool/SummerSchoolII.html">Summer School II</a></li>
 					<li><a href="SummerSchool/BostonUSA_UBSFrance_SummerSchool/SummerSchoolIV.html">Summer School IV</a></li>
 
 
 
 					
-					<li><a href="Internship/Internship_Report.pdf">Internship</a></li>
+					<li><a href="CDE/Internship/Internship_Report.pdf">Internship</a></li>
 					
 					<li><a href="certifications/webpage_certifications.html">Certifications</a></li>
 
 					<li><a href="https://saadahmedjamal.github.io/airports.github.io/">Data Viz</a></li>
 
+					<li><a href="#contact">Contact</a></li>
 
 				</ul>
 			</nav>
@@ -211,7 +237,7 @@
 							<span class="image fit"><img src="images/a.jpg"  alt="" /></span>
 							<br><br><br><br>
 							<div><span class="image fit"><a href="https://www.plus.ac.at/?lang=en"> <img src="images/logoPLUS.jpg"   alt="" /></a></span>
-							<a href="https://www.univ-ubs.fr/fr/index.html"><img src="images/logoUBS.png"  width=250px alt="" /></a>
+							<!--<a href="https://www.univ-ubs.fr/fr/index.html"><img src="images/logoUBS.png"  width=250px alt="" /></a>-->
 							</div>
 						</div>
 
@@ -257,9 +283,12 @@
 			<article id="work" class="wrapper style2" >
 				<div class="container" >
 					<header>
+						<!--
 						<h2>Here's some of stuff I do.</h2>
 						<p>...............</p>
+					-->
 					</header>
+					<!--
 					<div class="row aln-center">
 
 						<div class="col-4 commercial">
@@ -284,12 +313,73 @@
 							</section>
 						</div>
 					</div>
+					-->
 
+
+
+					<br>
+					<div  id="responsive_cards"  class="grid_card_html" >
+					
+					<div class="grid_card_body" id="Research">
+					
+					<div class="grid">
+						<div class="grid-item">
+						  <div class="card"  data-aos="fade-left">
+							<img class="card-img" src="images/R1.jpg" alt="Rome" />
+							<div class="card-content">
+							  <h1 class="card-header">Research Article I</h1>
+							  <p class="card-text">
+								<br>
+								<strong>قومی جامعہ برائے سائنس و ٹیکنالوجی</strong> 
+								<br><br>
+					
+					
+							  </p>
+							  <button class="card-btn" onclick="window.location.href='https://www.mdpi.com/2076-3417/10/19/6878';">
+								Visit <span>&rarr;</span></button>
+							</div>
+						  </div>
+						</div>
+						<div class="grid-item">
+						  <div class="card">
+							<img
+							  class="card-img"
+							  src="images/R2.jpg"
+							  alt="Grand Canyon"
+							/>
+							<div class="card-content">
+							  <h1 class="card-header">Research Article II</h1>
+							  <p class="card-text">
+								<br>
+								<strong>Paris-Lodron Universität Salzburg</strong> 
+								<br><br>
+							  </p>
+							  <button class="card-btn" onclick="window.location.href='https://www.mdpi.com/2073-4433/13/2/190';">
+								Visit <span>&rarr;</span>
+							</button>
+							</div>
+						  </div>
+						</div>
+
+					</div>
+					</div>
+					</div>
+					
+					<script>
+					var cssFile = document.createElement( "link" );
+					cssFile.rel = "stylesheet";
+					cssFile.type = "text/css";
+					cssFile.href = "assets/css/style_card.css";
+					document.getElementById( "responsive_cards" ).appendChild( cssFile );
+					</script>
+
+
+
+
+
+
+<!--
 					<p>...............</p>
-
-
-
-
 					<br>
 					<div  id="responsive_cards"  class="grid_card_html" >
 
@@ -420,7 +510,7 @@
 							</section>
 						</div>
 					</div>
-					-->
+				=->
 
 					<br><br><br>
 					<div  id="responsive_cards"  class="grid_card_html" >
@@ -613,7 +703,7 @@
 								<a  href="CDE/Semester2/DisasterRisk_Assignment5_Saad.pdf" >Find more</a>
 							</section>
 						</div>
-					-->
+					=->
 
 
 					<br><br><br>
@@ -743,20 +833,16 @@
 
 					</div>
 
-
+				-->
 
 
 					<footer>
 
 
-						<div class="boxed">
-							CDE Tasks
-						  </div>
-
 
 						<p>.........</p>
 						<br>
-						<p>Looking forward for any suggestions, Thanks</p>
+						<p>Looking forward for any suggestions!</p>
 						<a href="#contact" class="button large scrolly">For details of my work</a>
 					</footer>
 				</div>
@@ -767,11 +853,24 @@
 
 
 		<br><br>
+		<article style="wrapper style3">
 
-		<div>
-			<div class="fixed">
-				<span class="image fit"><img src="images/logoCDE.PNG"  alt="" /></span>
-				<span class="image fit"><img src="images/logoErasmus.jpg"  alt="" /></span>
+		<div class= "containered">
+			<div class="left--container">
+				<br>
+				<center>
+				
+				<a href="https://info.flagcounter.com/Wv8P"><img src="https://s11.flagcounter.com/countxl/Wv8P/bg_ADADAD/txt_121212/border_292929/columns_8/maxflags_40/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+			
+					
+				</center>
+				</div>
+
+			<div class="right--container" >
+				<center>
+				<span class="image fit" style="width: 300px;"><img src="images/logoCDE.PNG" /></span>
+				<span class="image fit" style="width: 300px;"><img src="images/logoErasmus.jpg"  /></span>
+			</center>
 
 			</div>
 
@@ -783,16 +882,12 @@
 
 
 			-->
+
 		</div>
 
-		<br>
-		<center>
-		
-		<a href="https://info.flagcounter.com/Wv8P"><img src="https://s11.flagcounter.com/countxl/Wv8P/bg_ADADAD/txt_121212/border_292929/columns_8/maxflags_40/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 	
-			
-		</center>
 
+		</article>
 
 		
 
@@ -936,7 +1031,7 @@
 					</div>
 					<footer>
 						<ul id="copyright">
-							<li>&copy; SaadAhmedJamal. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>-<a href="http://html5up.net">Copy rights</a></li><li>&copy; All rights reserved. <a href="https://saadahmedjamal.github.io/">Saad Ahmed Jamal.</a> </li>
 						</ul>
 
 
