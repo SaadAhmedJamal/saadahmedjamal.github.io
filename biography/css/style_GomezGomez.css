@@ -1,0 +1,165 @@
+
+/* timeline */
+.timeline-item {
+    position: relative;
+    width: 100%;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #8d8d8d;
+    z-index: 0;
+  }
+  
+  .timeline-item .timeline-content {
+    position: relative;
+    z-index: 1;
+    max-width: 45%;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  .timeline-item .timeline-content .timeline-date {
+    font-weight: 600;
+    font-size: 14px;
+    color: #098191;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item:nth-child(even) .timeline-content {
+    margin-left: 55%;
+    margin-right: 0;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-content {
+    margin-left: 0;
+    margin-right: 55%;
+  }
+  
+  .timeline h4 {
+    font-size: 18px;
+  }
+  
+  .timeline h5 {
+    font-size: 16px;
+  }
+  
+  .timeline p {
+    font-size: 14px;
+  }
+  
+  .timeline ul li {
+    font-size: 14px;
+  }
+  
+  .timeline-item .timeline-icon {
+    position: absolute;
+    top: 50%;
+    left: 49.25%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  .timeline-item .timeline-icon i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #fff;
+  }
+  
+
+  
+
+  
+/*--------------------------------------------------------------
+# Interests
+--------------------------------------------------------------*/
+.interests .icon-box {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: ease-in-out 0.3s;
+  }
+  
+  .interests .icon-box i {
+    font-size: 32px;
+    padding-right: 5px;
+    line-height: 1;
+    color: #333;
+  }
+  
+  .interests .icon-box h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .interests .icon-box:hover {
+    background: #eaeaea;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+
+
+
+  .icon-box {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  /* Colors */
+  .icon-box-yellow {
+    color: #ffbb2c;
+  }
+  
+  .icon-box-blue {
+    color: #5578ff;
+  }
+  
+  .icon-box-pink {
+    color: #e80368;
+  }
+  
+  .icon-box-green {
+    color: #1c7d32;
+  }
+  
+  .icon-box-light-green {
+    color: #28a745;
+  }
+  
+  .icon-box-red {
+    color: #f1081f;
+  }
+  
+  .icon-box-light-blue {
+    color: #47aeff;
+  }
+  
+  .icon-box-orange {
+    color: #ffc107;
+  }
+  
+  
+  
+  
