@@ -22,12 +22,12 @@ function createVisualizationsQ5(airports) {
     "height": 300,
     "projection": {
       "type": "orthographic",
-      "rotate": {"expr": "[-, |, 0]"}
+      "rotate": {"expr": "[ Longitude, Latitude, 0]"}
       /*"rotate": {"expr": "[rotate_latitude, rotate_longitude, 0]"}*/
     },
     "params": [
       {
-        "name": "-",
+        "name": "Longitude",
         /*"name": "rotate_longitude",*/
         "value": -30,
         "bind": {"input": "range", "min": -90, "max": 90, "step": 1}
@@ -35,7 +35,7 @@ function createVisualizationsQ5(airports) {
       {
         /*
         "name": "rotate_latitude",*/
-        "name": "|",
+        "name": "Latitude",
         "value": -30,
         "bind": {"input": "range", "min": -90, "max": 90, "step": 1}
       },
