@@ -17,9 +17,10 @@
         color: #8cd448;
       }
       
-      /* Smooth scrolling effect */
+      /* Smooth scrolling effect           scroll-behavior: smooth;*/
       body {
-        scroll-behavior: smooth;
+        scroll-behavior: auto !important;
+        
       }
 
 
@@ -56,12 +57,37 @@
 
     </style>
 
+  
+<script>
+  // Smooth scrolling function
+  window.onload = function() {
+  window.scrollTo(0, 0); // Keep at the top\\     
+  };
+  window.history.pushState("", document.title, window.location.pathname);
+
+  window.onload = function() {
+    setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 0); // Ensures it resets after the page loads
+};
+
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+  
+
+  
+  
+</script>
+
+
 
 </head>
 <body>
 
   
-  <div class="bgded" style="background-image:url('images/blackbackground.jpg');"> 
+  <div class="bgded" style="background-image:url('../images/blackbackground.jpg');"> 
 
 
     <!-- ################################################################################################ -->
@@ -108,7 +134,7 @@
    </nav>
  </header>
 </div>
-
+</div>
   <div id="section-1" style="background-color: #f4f4f4;">
 
   <center>
@@ -152,19 +178,13 @@
   <h2 onclick="scrollToSection('section11')">Spatial Statistics</h2>
   <h2 onclick="scrollToSection('section12')">Visualization</h2>
   <h2 onclick="scrollToSection('section13')">Others</h2>
+
   </div>
 
   <hr>
   
 
-  
-  <script>
-    // Smooth scrolling function
-    function scrollToSection(sectionId) {
-      const section = document.getElementById(sectionId);
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
+
 
 
 
@@ -380,15 +400,14 @@
       <center>  <object data="list/miscellaneous/REDD+1.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
         <object data="list/miscellaneous/REDD+2.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>  
         <object data="list/miscellaneous/IntroToC++.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>  
-        <object data="list/miscellaneous/Hackathon_CertificateofPartcipation.png" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+        <object data="list/miscellaneous/Hackathon_CertificateofPartcipation.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
       <object data="list/miscellaneous/BioReach.jpg" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-      <object data="list/miscellaneous/NIC_Hackatahon2.jpg" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-      <object data="list/miscellaneous/SpaceApps.jpg" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-      <object data="list/miscellaneous/NIC_Hackathon1.jpg" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
-      <object data="list/miscellaneous/GISDaycertificateSaad.jpg" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
-
-      <center><object data="list/miscellaneous/Saad Ahmed WorkshopGeomundus.jpg" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
-      <center><object data="list/miscellaneous/Saad Ahmed GeomundusParticipitaion.jpg" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
+      <object data="list/miscellaneous/NIC_Hackatahon2.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+      <object data="list/miscellaneous/SpaceApps.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+      <object data="list/miscellaneous/NIC_Hackathon1.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object>
+      <object data="list/miscellaneous/GISDaycertificateSaad.pdf" type="application/pdf" width="1000px" height="600px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
+      <center><object data="list/miscellaneous/SaadAhmed_WorkshopGeomundus.pdf" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
+      <center><object data="list/miscellaneous/SaadAhmed_GeomundusParticipitaion.pdf" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
       <center><object data="list/miscellaneous/Certificate_of_Attendance_MarineData4Baltic_2024.pdf" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
       <center><object data="list/miscellaneous/Certificate2ofAttendance2MarineData4Arctic 2024.pdf" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
       <center><object data="list/miscellaneous/3_CertificateofAttendanceMarineData4Africa2025.pdf" type="application/pdf" width="1200px" height="800px"><p>Unable to display PDF file. <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">Download</a> instead.</p></object></center>
@@ -407,7 +426,6 @@
     <span class="dagshub-circle">end of list</span>
   </a>
   </center>
-
 
 </body>
 </html>
